@@ -1,0 +1,645 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.site-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: #fff;
+    /*box-shadow: 0 2px 4px rgba(0,0,0,0.1);*/
+}
+.site-header img {
+    width: 100px;
+    transition: width 1s, height 1s, background-color 1s;
+}
+.main-nav ul {
+    display: flex; 
+}
+.main-nav li {
+    margin-left: 20px; 
+}
+.main-nav a {
+    padding: 5px 10px;
+    transition: color 0.3s;
+    color: #000;
+}
+.main-nav a:hover {
+    color: #007bff;
+    box-shadow: 1px 1px 1px 1px #ffffff;
+}
+/*.logo-link img:hover {
+  width: 104px;
+  background-color: #ffffff;
+  box-shadow: 20px 20px 20px 20px #red;
+}*/
+ .logo-link {
+      position:relative;
+    }
+    
+    .logo-link img:hover{
+      -webkit-animation: spin 5s infinite;
+       animation: spin 5s infinite;
+    }
+    
+    @-webkit-keyframes spin{
+      from {
+        -webkit-transform: rotateY(0deg);
+      }
+      to {
+        -webkit-transform: rotateY(-360deg);
+      }
+    }
+    
+    @keyframes spin{
+      from {
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+      }
+      
+      to {
+        -moz-transform: rotateY(-360deg);
+        -ms-transform: rotateY(-360deg);
+        transform: rotateY(-360deg);
+      }
+    }
+@media only screen and (max-device-width: 480px) {
+.site-header {
+  padding: 10px 0px;
+}
+.site-header img {
+    /*width: 80px;*/
+    width: 60px;
+  }
+.main-nav a {
+  /*padding: 5px 7px;
+  font-size: 13px;
+  text-align: center;*/
+  padding: 5px 6px;
+  font-size: 6px;
+  text-align: center;
+}
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+.site-header img {
+        width: 60px;
+    } 
+.main-nav a {
+ font-size: 13px;
+ text-align: center;
+}
+/*.site-header  {
+justify-content: flex-start;
+} */
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) { 
+.site-header img {
+        width:100px;
+    } 
+.main-nav a {
+ font-size: 15px;
+}
+}
+
+ @media only screen and (min-width: 1025px) {
+        
+  }
+
+/* ================================== Banner image section code start ================================*/
+.slider_container {
+  position: relative;
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 5px 5px 50px 5px lightgreen;
+  /*margin-bottom: 40px;*/
+}
+.slider {
+  position: relative;
+  width: 400%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  animation: 30s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite;
+}
+.slide {
+  position: relative;
+  min-width: 100%;
+  height: 100%;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+
+@keyframes sliding {
+  0% {
+    transform: translateX(0%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  45% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  70% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  95% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-400%);
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+.slider_container {
+    /*width: 147%;*/
+    height: 80%;
+     /*box-shadow: 1px 1px 1px 1px lightgreen;*/
+   }   
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+.slider_container {
+    height: 80%;
+   }
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) { 
+.slider_container {
+    height: 80%;
+   }
+}
+
+/* ========================= our service section code start ==================*/
+h1{
+text-align:center;
+margin:40px;
+}
+.our-service-sec {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.our-service-sec div {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.our-sectionn {
+  padding: 10px;
+  box-shadow: 5px 10px 15px 20px #888888;
+}
+.our-service-sec img {
+   width: 140px;
+  background-color: #fff;
+  transition: width 2s, height 2s, background-color 3s;
+}
+.our-service-sec img:hover {
+  width: 170px;
+  height: 150px;
+  background-color: #ffffff;
+}
+
+@media only screen and (max-device-width: 480px) {
+.our-service-sec {
+    display: inline;
+    padding:0;
+} 
+.our-section {
+    /*width: 147%;*/
+} 
+h1{
+font-size: 25px;
+}
+.our-service-sec img {
+   width: 100px;
+  }
+.our-service-sec div {
+        padding: 0; 
+        font-size: 26px;
+}
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+.our-service-sec {
+    display: inline;
+    padding:0;
+} 
+h1{
+font-size: 25px;
+}
+.our-service-sec img {
+   width: 100px;
+  }
+.our-service-sec div {
+        padding: 0; 
+        font-size: 26px;
+}
+}
+
+
+
+/* ======================== Aside image with content section code start ===============*/
+.img-cont-sec { 
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+  /*box-shadow: 20px 20px 20px 20px red;*/
+  box-shadow: 3px 1px 76px 1px lightgreen;
+}
+.img-cont-sec-header {
+ text-align:center;
+  padding: 10px; 
+}
+.img-cont-sec-body {
+  display: flex;
+  flex-direction: row; 
+  gap: 40px; 
+}
+.img-cont-sec-body-sec {
+  flex: 1;  
+ text-align:center;
+}
+.img-cont-sec-body img {
+  width: 600px;
+  background-color: #fff;
+  transition: width 2s, height 2s, background-color 3s;
+}
+.img-cont-sec-body img:hover {
+  width: 620px;
+  /*height: 150px;*/
+  background-color: #ffffff;
+}
+.img-cont-sec-body p{
+  font-size:18px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+   line-height: 1.6;
+}
+
+ @media only screen and (max-device-width: 480px) {
+.img-cont-sec {
+    box-shadow: 2px 2px 20px 2px lightgreen;
+}
+.img-cont-sec-body {
+    display: inline;
+}
+.img-cont-sec-body img {
+    /*width: 350px;*/
+    width: 300px;
+  }
+.img-cont-sec-body p {
+    font-size: 17px;
+    padding: 20px;
+}
+}
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+.img-cont-sec {
+    box-shadow: 2px 2px 20px 2px lightgreen;
+}
+.img-cont-sec-body {
+    display: inline;
+}
+.img-cont-sec-body img {
+    /*width: 350px;*/
+    width: 300px;
+  }
+.img-cont-sec-body p {
+    font-size: 17px;
+    padding: 20px;
+}
+}
+
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) { 
+.img-cont-sec-body img {
+    width: 350px;
+    height: 445px;
+}
+}
+
+
+/*================================== Regristation form code start =================================*/
+.main-panel {
+  width: 100%;
+  max-width:700px;
+  margin: 20px auto;
+  background: white;
+  padding:20px 10px 50px 10px;
+  border-radius:5px;
+}
+
+.row {
+  display:flex;
+}
+.form-group {
+  margin-top:15px;
+  padding: 10px;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+}
+input, select {
+  /*width:100%;*/
+  padding:10px;
+  height:40px;
+  border:1px solid black;
+  border-radius:5px;
+  font-size: 16px;
+  margin-top:5px;
+}
+input[type="radio"], input[type="checkbox"] {
+  width: 17px;
+  height:17px;
+  margin-left:5px;
+  position:relative;
+  top:2px;
+}
+button {
+  border:none;
+  width:45%;
+  height:42px;
+  font-size:16px;
+  cursor:pointer;
+  margin-top:40px;
+  margin-left: 75px;
+  border-radius:25px;
+  background: red;
+  color: white;
+}
+.form-section button {
+transition-duration: 0.4s;
+transition: width 1s, height 1s, background-color 1s;
+}
+.form-section button:hover {
+  background-color: #4CAF50; 
+  color: white;
+  box-shadow: 2px 2px 2px 2px #ffffff;
+   width:50%;
+  height:48px;
+}
+.form-group input:hover  {
+box-shadow: 1px 1px 1px 1px green;
+}
+.form-group select:hover  {
+box-shadow: 1px 1px 1px 1px green;
+}
+.form-group textarea:hover  {
+box-shadow: 1px 1px 1px 1px green;
+}
+
+@media only screen and (max-device-width: 480px) {
+.main-panel {
+  width: auto;
+}
+.form-section .row {
+  display: inline;
+}
+.form-group {
+ width: 90%;
+}
+.form-section .drop-down {
+  margin-bottom: 95px;
+}
+.form-section label {
+  font-size: 15px;
+}
+ .form-section input {
+  font-size: 15px;
+  padding: 0 0 0 10px;
+  /*height: 40px;*/
+}
+.form-section select {
+  font-size: 15px;
+}
+.form-section option {
+  font-size: 15px;
+}
+.form-section .photo input {
+  padding: 14px 10px 0px 10px;
+}
+.form-section .saf-type div {
+  font-size: 10px;
+}
+.form-section .btn-row {
+  display: flex;
+}
+.form-section .btn-row button  {
+  margin-top:20px;
+  font-size: 14px;
+  margin-left: 0;
+}
+.form-section .btn-row  {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-section .btn-row .form-group {
+display: block;
+text-align: center;
+}
+.form-section .addr label {
+  margin-bottom: 10px;
+} 
+.form-section .btn-row button {
+  width: 65%;
+}
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+.form-section label {
+  font-size: 15px;
+}
+ .form-section input {
+  font-size: 15px;
+  padding: 0 0 0 10px;
+  /*height: 40px;*/
+}
+.form-section select {
+  font-size: 15px;
+}
+.form-section option {
+  font-size: 15px;
+}
+.form-section .photo input {
+  padding: 14px 10px 0px 10px;
+}
+.form-section .saf-type div {
+  font-size: 14px;
+}
+.form-section .drop-down {
+  margin-bottom: 95px;
+}
+.form-section .radio-gender {
+  font-size: 13px;
+}
+.form-section .addr label {
+  margin-bottom: 10px;
+} 
+.form-section .btn-row .form-group {
+  padding: 0;
+}
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) { 
+.form-section .drop-down option {
+  font-size: 9px;
+}
+.form-section .addr label {
+  margin-bottom: 20px;
+} 
+}
+
+/* ======================= Footer section code start =====================================*/
+.footer-section {
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #E7E9EB;
+}
+.fa-icon{
+  padding: 8px;
+   width: 15px;
+    height: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 15px;
+}
+.footer-section .text-section {
+margin-top: 30px;
+margin-right: 20px; 
+} 
+.footer-section a{
+  margin-left:10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.fa-icon{
+ transition: width 1s, height 1s, background-color 1s; 
+}
+.fa:hover {
+    
+    width: 17px;
+    height: 17px;
+    box-shadow: 1px 1px 1px 1px #E7E9EB;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+@media only screen and (max-device-width: 480px) {
+.footer-section {
+display: block;
+}
+.footer-section .text-section {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.footer-section .icon-section {
+   text-align: center;
+}
+.footer-section .icon-section a {
+  margin-left:0;
+}
+.footer-section .text-section {
+margin-right: 0;
+}
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+.footer-section {
+display: block;
+}
+.footer-section .icon-section {
+   text-align: center;
+}
+.footer-section .icon-section a {
+  margin-left:0;
+}
+.footer-section .text-section {
+margin-right: 0;
+}
+.footer-section .text-section {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-left: 0;
+}
+ } 
+/* ========================= end of the code ============================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
