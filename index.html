@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!---- Css external stylesheet add link ---->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+	<title>Css 3 Task</title>
+</head>
+<body>
+<!-------------------------------------- Header section code start ------------------------------------------->
+ <header class="site-header">
+        <a href="#home" class="logo-link">
+            
+            <img src="C:\Users\EGS-LAP- 037\Desktop\css 3 task\images\logo.png" alt="website logo">
+        </a>
+<div class="site-header main-nav topnav" id="myTopnav">
+        <!--s<a href="#home" class="logo-link">
+            <img src="C:\Users\EGS-LAP- 037\Desktop\css 3 task\images\logo.png" alt="website logo">
+        </a>-->
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Travel Guides</a>
+        <a href="#contact">Safari Tours</a>
+        <a href="#contact">Tiger Tours</a>
+        <a href="#contact">Hotel & Resorts</a>
+        
+</div>
+ </header>
+<!---------------------------------------- Slider - image (Banner image) section code start ---------------->
+<section class="slider_container">
+      <section class="slider">
+        <div class="slide one">
+           <img src="C:\Users\EGS-LAP- 037\Desktop\css 3 task\images\Banner\deer.jpg" alt="deer-image">
+          
+        </div>
+        <div class="slide two">
+          <img src="C:\Users\EGS-LAP- 037\Desktop\css 3 task\images\Banner\zebra.jpg" alt="zebra-image">
+          
+        </div>
+        <div class="slide three">
+           <img src="C:\Users\EGS-LAP- 037\Desktop\css 3 task\images\Banner\elephant.jpg" alt="elephant-image">
+          
+        </div>
+        <div class="slide four">
+          <img src="C:\Users\EGS-LAP- 037\Desktop\css 3 task\images\Banner\tiger.jpg" alt="tiger-image">
+      
+        </div>
+         <div class="slide four">
+          <img src="C:\Users\EGS-LAP- 037\Desktop\css 3 task\images\Banner\elephant.jpg" alt="elephant-image">
+      
+        </div>
+      </section>
+</section>
+
+<!--------------------------- our service section code start --------------------------------->
+<section class="our-section">
+	<div class="our-service-head">
+		<h1>Our Service's</h1>
+	</div>
+	<div class="our-service-sec">
+  		<div>
+  			<img src="C:\Users\EGS-LAP- 037\Desktop\css 3 task\images\body\our service\safe.avif" alt="safe-secure-img">
+  			<h6>Safe & Secure Trips</h6>
+  		</div>
+  		<div>
+  			<img src="C:\Users\EGS-LAP- 037\Desktop\css 3 task\images\body\our service\support.png" alt="support-img">
+  			<h6>24/7 Support & Assistance</h6>
+  		</div> 
+  		<div>
+  			<img src="C:\Users\EGS-LAP- 037\Desktop\css 3 task\images\body\our service\flexible.png" alt="flexible-img">
+  			<h6>Flexible Tour Plans</h6>
+  		</div> 
+  	</div>
+</section>
+
+<!----------------------- Aside image with content section code start  ------------------------------------------>
+<section class="img-cont-sec">
+  	<div class="img-cont-sec-header">
+    	<h1>Safari Guidence</h1>
+  	</div>
+   <div class="img-cont-sec-body">
+    <div class="img-cont-sec-body-sec">
+     <img src="C:\Users\EGS-LAP- 037\Desktop\css 3 task\images\body\img content section\img-content-sec.avif" alt="safari-image">
+    </div>
+    <div class="img-cont-sec-body-sec">
+       <h2>Welcome to Wild Safari</h2>
+      <p>Welcome to WILD SAFARIS INDIA, your trusted travel partner for thrilling forest adventures across India’s untamed wilderness. We’re passionate about showcasing the raw beauty, rich biodiversity, and hidden wonders of India’s most iconic forests and national parks.
+		Whether you’re looking for an exciting wildlife safari, a peaceful nature escape, or a fully guided forest tour, our team is here to make your journey safe, smooth, and unforgettable.</p>
+    </div>
+  </div>
+</section>
+
+<!----------------------- Registration form code start --------------------------------------------->
+<section class="form-section">
+    <form>
+        <div class="main-panel">
+            <h1>Tour Registration</h1>
+            <div class="row">
+                <div class="form-group">
+                    <label for="fname">First Name : </label>
+                    <input type="text" id="fname" name="fname" placeholder="Firstname" required>
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last Name : </label>
+                    <input type="text" id="lname" name="lname" placeholder="Lastname" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="phonenumber">Mobile No : </label>
+                    <input type="tel" id="phonenumber" name="phonenumber" placeholder="Mobile Number" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Id : </label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="fatname">Father Name : </label>
+                    <input type="text" id="fatname" name="fatname" placeholder="father name" required>
+                </div>
+                <div class="form-group">
+                    <label for="mname">Mother Name : </label>
+                    <input type="text" id="mname" name="mname" placeholder="mother name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group drop-down">
+                    <label>Select Vehicle Type : </label>
+                    <div>
+                        <select>
+                            <option>Select...</option>
+                            <option value="car" required>Car</option>
+                            <option value="van" required>Van</option>
+                            <option value=" bus" required>Bus</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="bday">Date Of Birth : </label>
+                    <input type="date" id="bday" name="bday" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="gender">Gender : </label>
+                    <div class="radio-gender">
+                        <input type="radio" id="gender" name="gender" required> Male
+                        <input type="radio" id="gender" name="gender" required> Female 
+                    </div>
+                </div>
+                <div class="form-group photo">
+                    <label for="photo">Your Photo : </label>
+                    <input type="file" id="photo" name="photo" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group saf-type">
+                    <label for="stype">Safari Type :</label>
+                    <div>
+                        <input type="checkbox"> Jeep Safari
+                        <input type="checkbox"> Van Safari
+                        <input type="checkbox"> Elepahant safari
+                    </div>
+                </div>
+            </div>
+            <div class="row addr">
+                <div class="form-group">
+                    <label>Address : </label>
+                    <textarea style="height:110px;" required></textarea>
+                </div>
+            </div>
+            <div class="row btn-row">
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Clear</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
+
+<!--------------------------------------- footer section code start ----------------------->
+<footer class="footer-section">
+	<div class="icon-section">
+     <a href="https://www.facebook.com/" class="fa fa-facebook fa-icon"></a>
+    <a href="https://x.com/" class="fa fa-twitter fa-icon"></a>
+    <a href="https://www.linkedin.com/login/" class="fa fa-linkedin fa-icon"></a>
+    <a href="https://www.youtube.com/" class="fa fa-youtube fa-icon"></a>
+    <a href="https://www.instagram.com/accounts/login/?hl=en" class="fa fa-instagram fa-icon"></a>
+    <a href="https://in.pinterest.com/login/" class="fa fa-pinterest fa-icon"></a>   
+    </div>
+	<div class="text-section">
+     <span>All Copyrights reserved @ Wild Safari in India 2026.</span>   
+    </div>
+	
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
