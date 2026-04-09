@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- Font Awesome Icon Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+<!------------------------------------ Header section code start ------------------------------------------->
+<div class="container header-sec">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="D:\Task\images\logo\logo-img.png" alt="logo-img">
+        </a>
+      </div>
+      <div id="navbar2" class="navbar-collapse collapse link">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="dropdown">
+            <a href="service.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Service's<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="bike.html">Bike</a></li>
+              <li><a href="car.html">Car</a></li>
+              <li><a href="bus.html">Bus</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+  </nav>
+</div>
+
+<!----------------------------------- form section code start ------------------------------->
+<div class="container contact-page-form">
+<form class="well form-horizontal" action=" " method="post"  id="contact_form">
+<fieldset>
+<!-- Form Name -->
+<legend>Contact Us</legend>
+
+<!-- row-1 -->
+<div class="form-group  row row-1">
+    <label class="col-md-2 control-label fname">First Name</label>  
+    <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+        <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+      </div>
+    </div>
+    <label class="col-md-2 control-label lname">Last Name</label> 
+    <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+        <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+      </div>
+    </div>
+</div>
+
+<!-- row-2 -->
+<div class="form-group  row row-2">
+   <label class="col-md-2 control-label email">E-Mail</label>  
+    <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+        <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+    </div>
+  </div>
+   <label class="col-md-2 control-label phone">Phone </label>  
+    <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+        <input name="phone" placeholder="98765 43210" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+<!--- row-3 --->
+<div class="form-group  row row-3">
+  <label class="col-md-2 control-label addresss">Address</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+        <input name="address" placeholder="Address" class="form-control" type="text">
+    </div>
+  </div>
+   <label class="col-md-2 control-label city">City</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+        <input name="city" placeholder="city" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+      
+<!-- row-4 -->
+<div class="form-group  row row-3">
+   <label class="col-md-2 control-label vehi-type">Vehicle type</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="state" class="form-control selectpicker" >
+      <option value=" " >Please select your vehicle </option>
+      <option>Bike</option>
+      <option>Car</option>
+      <option>Bus</option>
+    </select>
+  </div>
+</div>
+  <label class="col-md-2 control-label zip-cod">Zip Code</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="zip" placeholder="Zip Code" class="form-control"  type="text">
+    </div>
+</div>
+</div>
+
+<!-- row-5 --->
+<div class="form-group sugg-row">
+  <label class="col-md-4 control-label sugg">Your Suggestion</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+          <textarea class="form-control" name="comment" placeholder="Your Suggestion"></textarea>
+  </div>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="form-button">
+    <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+     <button type="submit" class="btn btn-warning" >Clear <span class="glyphicon glyphicon-refresh"></span></button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</div>
+
+
+
+
+
+<!---------------------------------- Footer section code start ----------------------------->
+<div class="container footer-section">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="icon-section">
+       <a href="https://www.facebook.com/" class="fa fa-facebook fa-icon"></a>
+      <a href="https://x.com/" class="fa fa-twitter fa-icon"></a>
+      <a href="https://www.linkedin.com/login/" class="fa fa-linkedin fa-icon"></a>
+      <a href="https://www.youtube.com/" class="fa fa-youtube fa-icon"></a>
+      <a href="https://www.instagram.com/accounts/login/?hl=en" class="fa fa-instagram fa-icon"></a>
+      <a href="https://in.pinterest.com/login/" class="fa fa-pinterest fa-icon"></a>
+    </div>
+    </div>
+    <div class="col-md-6 ">
+      <div class="text-section">
+       <p>All Copyrights reserved @ SP Auto Consulting Pvd Ltd in India 2026.</p>  
+       </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

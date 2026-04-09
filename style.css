@@ -1,0 +1,576 @@
+/* ========================== header section code start ================================ */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: snow !important;
+}
+.header-sec {
+  width: auto !important;
+    padding: 0 !important;
+}
+.header-sec .navbar-default  {
+background-color: #ghostwhite !important;
+}
+.header-sec .navbar-header img {
+  width: 30% !important;
+   transition: border 0.3s ease;
+}
+.header-sec .navbar-header img:hover { 
+  border: 1px solid rgba(255, 165, 0, 0.7);
+  border-radius: 53px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+ color: green !important;
+ background-color: #ghostwhite !important; 
+ transform: scale(1.1);
+}
+.navbar-default .navbar-nav a {
+  background-color: #ghostwhite !important; 
+  transition: all 0.6s ease; 
+  font-size: 15px;
+}
+.header-sec ul {
+  margin:28px;
+}
+.header-sec .navbar-brand {
+padding: 0 !important;
+margin-left: 0 !important;
+}
+.header-sec .link .dropdown-menu {
+  /*min-width: 100%;*/
+}
+.header-sec .link .dropdown-menu a:hover {
+ transform: scale(1.1);
+ color: green !important;
+}
+
+@media only screen and (max-device-width: 480px) {
+.header-sec .navbar-toggle {
+  margin-top: 28px;
+  margin-bottom: 0px;
+}
+.header-sec .navbar-brand {
+float: none;
+}
+}
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+.header-sec .navbar-toggle {
+  margin-top: 48px;
+}
+.header-sec .navbar-brand {
+float: none;
+}
+}
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) { 
+.header-sec ul {
+    margin: 0px;
+    margin-bottom: 25px;
+}
+/*.header-sec .navbar-brand {
+    padding: 15px !important;
+}*/
+.header-sec .link {
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+}
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) { 
+.header-sec .container-fluid {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+}
+
+/*================================== slider-img-content section code start =============================*/
+.slider-img-content-sec {
+  /*padding-left: 0px !important;
+  padding-right: 0px !important;
+  width: auto !important;
+  margin-right: 10px !important;
+  margin-left: 10px !important;*/
+}
+.slider-img-content-sec .slide-img {
+  /*padding: 50px;*/
+}
+.slider-img-content-sec .sec-coln h3 {
+text-align: center;
+font-family: sans-serif;
+}
+.slider-img-content-sec .sec-coln p {
+ font-size: 18px;
+ font-family: ui-sans-serif;
+ padding: 14px;
+ text-align: center;
+ margin-bottom: 0 !important;
+}
+.slider-img-content-sec .slide-img {
+  margin-top: 100px;
+}
+
+@media only screen and (max-device-width: 480px) {
+.slider-img-content-sec .slide-img {
+  margin-top: 40px;
+}
+.slider-img-content-sec .sec-coln {
+  margin-top: 40px;
+}
+}
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+.slider-img-content-sec .slide-img {
+  margin-top: 40px;
+}
+.slider-img-content-sec .sec-coln {
+  margin-top: 40px;
+}
+}
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) { 
+.slider-img-content-sec .slide-img img {
+width: 60%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slider-img-content-sec .slide-img {
+  margin-top: 40px;
+}
+.slider-img-content-sec .sec-coln {
+  margin-top: 40px;
+}
+}
+/*--------------------------- our-section code start ------------------------------------------*/
+.our-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.our-section .header h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.our-section .one-coln,.two-coln,.three-coln {
+  margin-top: 20px;
+}
+.our-section .one-coln img {
+  width: 65%;
+  padding-top: 25px;
+}
+.our-section .two-coln img {
+  width: 80%;
+  padding-top: 12px;
+}
+.our-section .three-coln img {
+  width: 80%;
+  padding-top: 28px;
+}
+.our-section .caption h3 {
+  text-align: center;
+  margin-bottom: 20px;
+} 
+.our-section .caption .para  {
+    text-align: center;
+    font-size: 17px;
+    font-family: serif;
+    padding: 20px;
+}
+.our-section .caption .button {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.our-section .caption .button a {
+  background-color: #ghostwhite !important; 
+  transition: all 0.6s ease; 
+  font-size: 15px;
+}
+.our-section .caption .button a:hover {
+  color: green !important;
+ background-color: #ghostwhite !important; 
+ transform: scale(1.1);
+}
+.our-section .col-md-4 {
+  transition: all 0.6s ease; 
+}
+.our-section .col-md-4:hover {
+transform: scale(1.1);
+}
+
+@media only screen and (max-device-width: 480px) {
+ .our-section .header h3 {
+    margin-bottom: 35px;
+} 
+}
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+ .our-section .header h3 {
+    margin-bottom: 35px;
+}
+}
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) { 
+ .our-section .header h3 {
+    margin-bottom: 35px;
+}
+}
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) { 
+ .our-section .header h3 {
+    margin-bottom: 20px;
+}
+}
+/*=========================== client section code start =============================*/
+.client-section .header h3 {
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: 400;
+}
+/*.client-section .first-coln,.second-coln,.third-coln,.fourth-coln {
+ background-color: #fff;
+border: 1px solid bisque;
+}*/
+.client-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+}
+.client-section h4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.client-section p {
+ text-align: center;
+    font-size: 17px;
+    font-family: serif;
+    padding: 20px;
+}
+.client-section .col-md-3 {
+  transition: all 0.6s ease; 
+}
+.client-section .col-md-3:hover {
+transform: scale(1.1);
+}
+.client-section  .head .checked {
+  color: orange;
+}
+.client-section .head .star-icon {
+ max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) { 
+.client-section img {
+  padding: 0;
+  padding-top:25px;
+} 
+}
+
+/*========================== Footer section code start ========================================*/
+.footer-section {
+  width: auto !important;
+  border: 1px solid slategray;
+  background-color: #ghostwhite !important;
+  margin-top: 30px;
+}
+.footer-section .icon-section {
+max-width: fit-content;
+  margin-right: auto;
+}
+.footer-section .text-section {
+max-width: fit-content;
+  margin-left: auto;
+}
+.footer-section .icon-section .fa-icon {
+   width: 30px;
+    height: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background-color: #ghostwhite !important; 
+  transition: all 0.6s ease; 
+  font-size: 20px;
+}
+.footer-section .icon-section .fa-icon:hover {
+ color: green !important;
+ background-color: #ghostwhite !important; 
+ transform: scale(1.1);
+}
+.footer-section .row {
+padding: 30px;
+}
+.footer-section .text-section {
+font-size: 15px;
+}
+
+@media only screen and (max-device-width: 480px) {
+.footer-section .icon-section {
+max-width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer-section .text-section p {
+  text-align: center;
+}
+.footer-section .text-section {
+margin-top: 25px;
+}
+}
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+.footer-section .icon-section {
+max-width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer-section .text-section p {
+  text-align: center;
+}
+.footer-section .text-section {
+margin-top: 25px;
+}
+}
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) { 
+.footer-section .icon-section {
+max-width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer-section .text-section p {
+  text-align: center;
+}
+.footer-section .text-section {
+margin-top: 25px;
+max-width: none;
+}
+}
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) { 
+.footer-section .text-section {
+    font-size: 14px;
+}
+}
+/*==========================================================================================*/
+/*==========================================================================================*/
+/*---------------------------------- About page code start ----------------------------------*/
+.img-content-sec {
+  width:auto !important;
+}
+.img-content-sec .row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.img-content-sec .header h2 {
+  text-align: center;
+  font-family: ui-serif;
+  font-weight: 800;
+}
+.img-content-sec .first-row-sec .img-sec img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-content-sec .first-row-sec .col-md-6 {
+  margin-top: 30px;
+}
+.img-content-sec  .first-row-sec .content-sec h3 {
+  font-weight: 600;
+  font-family: ui-serif;
+  text-align: center;
+}
+.img-content-sec  .first-row-sec .content-sec p {
+  font-size: 18px;
+  font-family: ui-serif;
+  text-align: center;
+  padding: 10px;
+}
+/*--------------------------- second row section code start -----------------------------*/
+.img-content-sec .second-row-sec .img-sec {
+  margin-top: 30px;
+}
+.img-content-sec .second-row-sec .img-sec img {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-content-sec .second-row-sec .col-md-6 {
+  margin-top: 30px;
+}
+.img-content-sec  .second-row-sec .content-sec h3 {
+  font-weight: 600;
+  font-family: ui-serif;
+  text-align: center;
+}
+.img-content-sec  .second-row-sec .content-sec p {
+  font-size: 18px;
+  font-family: ui-serif;
+  text-align: center;
+  padding: 10px;
+}
+/*--------------------------- third row section code start -----------------------------*/
+.img-content-sec .third-row-sec .img-sec img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+.img-content-sec .third-row-sec .col-md-6 {
+  margin-top: 30px;
+}
+.img-content-sec  .third-row-sec .content-sec h3 {
+  font-weight: 600;
+  font-family: ui-serif;
+  text-align: center;
+}
+.img-content-sec  .third-row-sec .content-sec p {
+  font-size: 18px;
+  font-family: ui-serif;
+  text-align: center;
+  padding: 10px;
+}
+.img-content-sec img {
+ background-color: #ghostwhite !important; 
+  transition: all 0.6s ease; 
+}
+.img-content-sec img:hover {
+ color: green !important;
+ background-color: #ghostwhite !important; 
+ transform: scale(1.1); 
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) { 
+.img-content-sec .first-row-sec .img-sec img {
+  width: 60%;
+}
+}
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) { 
+.img-content-sec .first-row-sec .img-sec img {
+  margin-top: 70px;
+}
+.img-content-sec .second-row-sec .img-sec img {
+  margin-top: 100px;
+}
+.img-content-sec .third-row-sec .img-sec img {
+  margin-top: 100px;
+}
+}
+ 
+/*==========================================================================================*/
+/*==========================================================================================*/
+/*---------------------------------- Contact page code start -----------------------------*/
+/*.contact-page-form .form-group {
+  max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+.contact-page-form .row-1 label {
+  text-align: center;
+}
+.contact-page-form .row-1 .col-md-4 {
+  padding-left: 0 ;
+}
+.contact-page-form .row-2 label {
+  text-align: center;
+}
+.contact-page-form .row-2 .col-md-4 {
+  padding-left: 0 ;
+}
+.contact-page-form .row-3 label {
+  text-align: center;
+}
+.contact-page-form .row-3 .col-md-4 {
+  padding-left: 0 ;
+}
+.contact-page-form .well {
+  background-color: snow !important; 
+}
+.contact-page-form legend {
+  text-align: center;
+  border-bottom: none !important;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contact-page-form .row {
+  height: 60px;
+}
+.contact-page-form .form-button {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-device-width: 480px) {
+.contact-page-form .row {
+  height: 140px !important;
+}
+.contact-page-form .row label {
+  margin-top: 20px !important;
+} 
+.contact-page-form .sugg-row .sugg {
+  margin-top: 30px !important;
+} 
+.contact-page-form .row-1,.row-2,.row-3,.sugg-row .col-md-4 {
+  padding-left: 15px !important; 
+}
+.contact-page-form legend {
+   padding-bottom: 0px !important; 
+}
+}
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+.contact-page-form .row {
+  height: 140px !important;
+}
+.contact-page-form .row label {
+  margin-top: 20px !important;
+} 
+.contact-page-form .sugg-row .sugg {
+  margin-top: 30px !important;
+} 
+.contact-page-form .row-1,.row-2,.row-3,.sugg-row .col-md-4 {
+  padding-left: 15px !important; 
+}
+.contact-page-form legend {
+   padding-bottom: 0px !important; 
+}
+}
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) { 
+.contact-page-form .row {
+  height: 140px !important;
+}
+.contact-page-form .row label {
+  margin-top: 20px !important;
+} 
+.contact-page-form .sugg-row .sugg {
+  margin-top: 30px !important;
+} 
+.contact-page-form .row-1,.row-2,.row-3,.sugg-row .col-md-4 {
+  padding-left: 15px !important; 
+}
+.contact-page-form legend {
+   padding-bottom: 0px !important; 
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
